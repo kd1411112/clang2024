@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+
+main()
+{
+	int star;
+
+	srand(time(0));
+	rand();
+	star = rand() % 5 + 1;
+
+	printf("ç°ì˙ÇÃâ^ê®ÇÕÅA");
+
+	for (star; star > 0; star--) {
+		printf("Åô ");
+	}
+
+	printf("Ç≈Ç∑ÅB\n");
+}
